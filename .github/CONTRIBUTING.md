@@ -1,7 +1,5 @@
 # Contributing (EN)
 
-(Polish version above. / Wersja PL poniżej)
-
 Thanks for contributing! This repository is a shared project template.
 
 ## How to contribute
@@ -26,35 +24,3 @@ Thanks for contributing! This repository is a shared project template.
 
 ## Decision making
 - We discuss bigger changes; if there’s no consensus — we vote.
-
-  
----
-
-# Współpraca (PL)
-
-# Współpraca (PL)
-
-Dzięki za wkład! To repo jest wspólnym szablonem projektowym.
-
-## Jak wnosić zmiany
-- Dla większych zmian (architektura, konwencje, patterny) najpierw załóż issue i przedyskutuj z zespołem.
-- Drobne poprawki (literówki, refaktoryzacje, małe usprawnienia) mogą iść od razu jako PR — bez osobnego issue.
-
-## Pull Requesty
-- Rób PR-y małe i tematyczne (jeden wątek).
-- Opisz **co** i **dlaczego** (kontekst jest ważny).
-- Podlinkuj issue, jeśli istnieje.
-- Wymagamy przynajmniej dwóch review przed merge.
-
-## Model pracy z gałęziami
-- Stosujemy **trunk-based development** (nie stary i ciężki GitFlow).
-- `main` powinien być zawsze w stanie „releasable”.
-- Pracujemy na krótkotrwałych branchach (np. `feature/*`, `fix/*`) i często mergujemy.
-
-## Zasady kodowania (minimum)
-- Stawiamy na czytelność i spójność — lepiej prosto niż „sprytnie”.
-- Trzymaj się istniejących wzorców i nazewnictwa w repo.
-- Jeśli dodajesz nową zależność / pattern, uzasadnij to w PR.
-
-## Podejmowanie decyzji
-- Większe zmiany omawiamy; jeśli nie ma konsensusu — głosujemy.
