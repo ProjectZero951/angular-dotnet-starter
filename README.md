@@ -1,7 +1,5 @@
 # Project-Zero (.NET + Angular)
 
-(Polish version above. / Polska wersja poniżej)
-
 A starter/template for projects using the .NET + Angular stack.  
 Goal: kick-start new projects faster without rewriting boilerplate.
 
@@ -33,39 +31,3 @@ Goal: kick-start new projects faster without rewriting boilerplate.
 
 ## Documentation
 - Architecture and conventions: `/docs`
-
----
-
-# Project-Zero (.NET + Angular)
-
-Starter/template dla projektów w stacku .NET + Angular.  
-Cel: szybki start nowych projektów bez przepisywania boilerplate’u.
-
-## Co dostajesz
-**Backend**
-- konfiguracja EF Core (migracje, wzorce, leniwe ładowanie)
-- auth JWT i RBAC (Role-Based Access Control) 
-- obsługa błędów (result pattern)
-- logowanie zdarzeń
-- audyt (kolumny / trail)
-- CQ[R]S (commands/queries), itp.
-
-**Frontend**
-- auth, guardy/permissions
-- layout (menu)
-- generyczne komponenty
-- komunikacja z Backend i obsługa błędów
-- tabele (paging/sort/filter)
-- i18n
-- walidacje, itp.
-
-## Wymagania
-- .NET SDK
-- Node.js + npm
-  
-### Uruchomienie lokalnie
-1) Backend: `dotnet restore` / `dotnet run`
-2) Frontend: `npm install` / `npm start`
-
-## Dokumentacja
-- Architektura i konwencje: `/docs`
