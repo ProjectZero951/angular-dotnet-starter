@@ -1,3 +1,5 @@
 <Solution>
-  <Folder Name="/src/" />
+  <Folder Name="/src/">
+    <Project Path="src/Starter.Domain/Starter.Domain.csproj" Id="332307d4-9046-40d8-9375-e0dcd2634539" />
+  </Folder>
 </Solution>
