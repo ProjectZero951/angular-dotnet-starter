@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/Starter.Infrastructure/Starter.Infrastructure.csproj" Id="13022958-e2d8-4585-9531-e21e42993d27" />
     <Project Path="src/Starter.Presentation.Api/Starter.Presentation.Api.csproj" Id="a0d27139-af1c-426c-a627-d639a5832336" />
   </Folder>
 </Solution>
