@@ -1,8 +1,8 @@
 <Solution>
+  <Folder Name="/libs/">
+    <Project Path="libs/Starter.Mediator.Core/Starter.Mediator.csproj" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/Starter.Presentation.Api/Starter.Presentation.Api.csproj" Id="a0d27139-af1c-426c-a627-d639a5832336" />
-  </Folder>
-  <Folder Name="/src/lib/">
-    <Project Path="lib/Starter.Mediator.Core/Starter.Mediator.Core.csproj" Id="b964673d-11cc-43b2-8904-c134116fc078" />
   </Folder>
 </Solution>

@@ -1,4 +1,4 @@
-﻿namespace Starter.Mediator.Core;
+﻿namespace Starter.Mediator;
 
 
 public interface IDispatcher

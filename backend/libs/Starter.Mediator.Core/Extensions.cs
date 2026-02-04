@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Starter.Mediator.Core;
+namespace Starter.Mediator;
 
 public static class Extensions
 {
