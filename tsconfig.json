@@ -23,7 +23,7 @@
   },
   "files": [],
   "exclude": [
-    "eslint.config.js"
+    "./eslint.config.js"
   ],
   "references": [
     {

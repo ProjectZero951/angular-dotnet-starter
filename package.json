@@ -2,6 +2,7 @@
   "name": "angular-dotnet-starter",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "packageManager": "npm@11.6.2",
   "scripts": {
     "prepare": "lefthook install",
@@ -25,23 +26,22 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@angular-eslint/builder": "^21.2.0",
+    "@angular-eslint/eslint-plugin": "^21.2.0",
+    "@angular-eslint/eslint-plugin-template": "^21.2.0",
+    "@angular-eslint/template-parser": "^21.2.0",
     "@angular/build": "^21.1.2",
     "@angular/cli": "^21.1.2",
     "@angular/compiler-cli": "^21.1.0",
-    "@angular-eslint/builder": "^18.0.0",
-    "@angular-eslint/eslint-plugin": "^18.0.0",
-    "@angular-eslint/eslint-plugin-template": "^18.0.0",
-    "@angular-eslint/template-parser": "^18.0.0",
     "@eslint/js": "^9.0.0",
-    "@evilmartians/lefthook": "^1.10.2",
-    "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "@typescript-eslint/parser": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
     "eslint": "^9.0.0",
     "jsdom": "^27.1.0",
-    "prettier": "^3.0.0",
+    "lefthook": "^2.1.0",
+    "prettier": "^3.8.1",
     "typescript": "~5.9.2",
-    "typescript-eslint": "^8.0.0",
+    "typescript-eslint": "^8.54.0",
     "vitest": "^4.0.8"
   }
 }
-
