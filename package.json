@@ -19,7 +19,6 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular-eslint/builder": "^21.2.0",
     "@angular-eslint/eslint-plugin": "^21.2.0",
     "@angular-eslint/eslint-plugin-template": "^21.2.0",
     "@angular-eslint/template-parser": "^21.2.0",
@@ -27,8 +26,6 @@
     "@angular/cli": "^21.1.2",
     "@angular/compiler-cli": "^21.1.0",
     "@eslint/js": "^9.0.0",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
     "eslint": "^9.0.0",
     "jsdom": "^27.1.0",
     "lefthook": "^2.1.0",
