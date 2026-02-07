@@ -1,0 +1,47 @@
+{
+  "name": "angular-dotnet-starter",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@11.6.2",
+  "scripts": {
+    "prepare": "lefthook install",
+    "frontend:start": "cd frontend && ng serve",
+    "frontend:build": "cd frontend && ng build",
+    "frontend:watch": "cd frontend && ng build --watch --configuration development",
+    "frontend:test": "cd frontend && ng test",
+    "frontend:lint": "cd frontend && eslint .",
+    "frontend:lint:fix": "cd frontend && eslint . --fix",
+    "frontend:format": "cd frontend && prettier --write \"**/*.{ts,html,scss,css,json}\"",
+    "frontend:format:check": "cd frontend && prettier --check \"**/*.{ts,html,scss,css,json}\""
+  },
+  "dependencies": {
+    "@angular/common": "^21.1.0",
+    "@angular/compiler": "^21.1.0",
+    "@angular/core": "^21.1.0",
+    "@angular/forms": "^21.1.0",
+    "@angular/platform-browser": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.1.2",
+    "@angular/cli": "^21.1.2",
+    "@angular/compiler-cli": "^21.1.0",
+    "@angular-eslint/builder": "^18.0.0",
+    "@angular-eslint/eslint-plugin": "^18.0.0",
+    "@angular-eslint/eslint-plugin-template": "^18.0.0",
+    "@angular-eslint/template-parser": "^18.0.0",
+    "@eslint/js": "^9.0.0",
+    "@evilmartians/lefthook": "^1.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "jsdom": "^27.1.0",
+    "prettier": "^3.0.0",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^4.0.8"
+  }
+}
+
