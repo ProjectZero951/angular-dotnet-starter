@@ -1,4 +1,3 @@
-// frontend/eslint.config.js
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import angularPlugin from '@angular-eslint/eslint-plugin';

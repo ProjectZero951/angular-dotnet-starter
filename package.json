@@ -5,15 +5,8 @@
   "type": "module",
   "packageManager": "npm@11.6.2",
   "scripts": {
-    "prepare": "lefthook install",
-    "frontend:start": "cd frontend && ng serve",
-    "frontend:build": "cd frontend && ng build",
-    "frontend:watch": "cd frontend && ng build --watch --configuration development",
-    "frontend:test": "cd frontend && ng test",
-    "frontend:lint": "cd frontend && eslint .",
-    "frontend:lint:fix": "cd frontend && eslint . --fix",
-    "frontend:format": "cd frontend && prettier --write \"**/*.{ts,html,scss,css,json}\"",
-    "frontend:format:check": "cd frontend && prettier --check \"**/*.{ts,html,scss,css,json}\""
+    "start": "ng serve",
+    "prepare": "lefthook install"
   },
   "dependencies": {
     "@angular/common": "^21.1.0",
