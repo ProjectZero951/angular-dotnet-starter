@@ -1,6 +1,6 @@
 ﻿namespace Starter.Domain.Primitives.Results;
 
-public record Error(string Message, string? Code = null);
+public record Error(string Message);
 
 public class Result
 {
@@ -22,8 +22,8 @@ public class Result<T> : Result
 {
     public T? Value { get; }
 
-    private Result(bool success, T value, Error? domainError)
-        : base(success, domainError)
+    private Result(bool success, T value, Error? error)
+        : base(success, error)
     {
         Value = value;
     }
