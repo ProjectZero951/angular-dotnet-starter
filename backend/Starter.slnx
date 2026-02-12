@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/libs/">
+    <Project Path="libs/Starter.Domain.Primitives/Starter.Domain.Primitives.csproj" />
     <Project Path="libs/Starter.Mediator/Starter.Mediator.csproj" />
   </Folder>
   <Folder Name="/src/">
