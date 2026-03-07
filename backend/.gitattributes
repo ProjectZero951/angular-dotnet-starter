@@ -1,0 +1,7 @@
+# Enforce Unix-style line endings for all text files
+* text=auto eol=lf
+
+# Binary files should not have line endings normalized
+*.bin binary
+*.png binary
+*.jpg binary
