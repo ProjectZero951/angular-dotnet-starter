@@ -1,27 +1,13 @@
 {
-  "name": "frontend",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-  },
-  "prettier": {
-    "printWidth": 100,
-    "singleQuote": true,
-    "overrides": [
-      {
-        "files": "*.html",
-        "options": {
-          "parser": "angular"
-        }
-      }
-    ]
-  },
+  "name": "angular-dotnet-starter",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "packageManager": "npm@11.6.2",
+  "scripts": {
+    "start": "ng serve",
+    "prepare": "lefthook install"
+  },
   "dependencies": {
     "@angular/common": "^21.1.0",
     "@angular/compiler": "^21.1.0",
@@ -33,11 +19,19 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@angular-eslint/eslint-plugin": "^21.2.0",
+    "@angular-eslint/eslint-plugin-template": "^21.2.0",
+    "@angular-eslint/template-parser": "^21.2.0",
     "@angular/build": "^21.1.2",
     "@angular/cli": "^21.1.2",
     "@angular/compiler-cli": "^21.1.0",
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
     "jsdom": "^27.1.0",
+    "lefthook": "^2.1.0",
+    "prettier": "^3.8.1",
     "typescript": "~5.9.2",
+    "typescript-eslint": "^8.54.0",
     "vitest": "^4.0.8"
   }
 }

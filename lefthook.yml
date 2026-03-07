@@ -1,0 +1,18 @@
+pre-commit:
+  parallel: true
+  commands:
+    frontend-prettier:
+      run: npx prettier --config ./.prettierrc --write {staged_files}
+      glob: "frontend/**/*.{ts,html,scss,css,json}"
+      stage_fixed: true
+
+    frontend-eslint:
+      run: npx eslint {staged_files}
+      glob: "frontend/**/*.{ts,html}"
+      stage_fixed: true
+
+    backend-format:
+      run: cd backend && dotnet format --include {staged_files}
+      glob: "backend/**/*.cs"
+      stage_fixed: true
+
